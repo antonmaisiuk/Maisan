@@ -1,0 +1,23 @@
+2021-05-03T09:57:47+00:00 CRITICAL Maximum execution time of 60 seconds exceeded в D:\Develop\Web\OpenServer\domains\wordpress\wp-includes\Requests\Transport\cURL.php на строке 463
+
+2021-05-03T10:00:35+00:00 CRITICAL Maximum execution time of 60 seconds exceeded в D:\Develop\Web\OpenServer\domains\wordpress\wp-includes\Requests\Transport\cURL.php на строке 463
+
+2021-05-03T10:20:25+00:00 CRITICAL Uncaught Error: Call to a member function get_sku() on null in D:\Develop\Web\OpenServer\domains\wordpress\wp-content\themes\autoparts\functions.php:90
+Stack trace:
+#0 D:\Develop\Web\OpenServer\domains\wordpress\wp-settings.php(528): include()
+#1 D:\Develop\Web\OpenServer\domains\wordpress\wp-config.php(90): require_once('D:\\Develop\\Web\\...')
+#2 D:\Develop\Web\OpenServer\domains\wordpress\wp-load.php(37): require_once('D:\\Develop\\Web\\...')
+#3 D:\Develop\Web\OpenServer\domains\wordpress\wp-blog-header.php(13): require_once('D:\\Develop\\Web\\...')
+#4 D:\Develop\Web\OpenServer\domains\wordpress\index.php(17): require('D:\\Develop\\Web\\...')
+#5 {main}
+  thrown in D:\Develop\Web\OpenServer\domains\wordpress\wp-content\themes\autoparts\functions.php on line 90
+
+2021-05-03T10:21:54+00:00 CRITICAL Uncaught Error: Call to a member function get_sku() on null in D:\Develop\Web\OpenServer\domains\wordpress\wp-content\themes\autoparts\functions.php:90
+Stack trace:
+#0 D:\Develop\Web\OpenServer\domains\wordpress\wp-settings.php(528): include()
+#1 D:\Develop\Web\OpenServer\domains\wordpress\wp-config.php(90): require_once('D:\\Develop\\Web\\...')
+#2 D:\Develop\Web\OpenServer\domains\wordpress\wp-load.php(37): require_once('D:\\Develop\\Web\\...')
+#3 D:\Develop\Web\OpenServer\domains\wordpress\wp-admin\admin-ajax.php(22): require_once('D:\\Develop\\Web\\...')
+#4 {main}
+  thrown in D:\Develop\Web\OpenServer\domains\wordpress\wp-content\themes\autoparts\functions.php on line 90
+

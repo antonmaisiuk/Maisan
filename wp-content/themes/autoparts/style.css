@@ -1,0 +1,97 @@
+/*
+Theme name: Storefront Child
+Theme URL:#
+Author: Anton
+Author URL:#
+Template: storefront
+Version: 1.0
+*/
+
+.centr_block{
+    display: flex;
+    justify-content: center;
+}
+.widget .widget-title, .widget .widgettitle{
+    font-size: 2em;
+}
+
+#masthead .col-full .site-branding{
+    display: flex;
+    width: 79%;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 0;
+}
+.woocommerce-active .site-header .site-branding{
+    margin-right: 0;
+}
+#masthead .col-full{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.site-branding .custom-logo-link .custom-logo{
+    height: auto;
+    max-width: 65px;
+    max-height: none;
+    margin-right: 10px;
+}
+.custom-logo-link, .site-branding, .site-header-cart, .site-logo-anchor, .site-logo-link, .site-search {
+    margin-bottom: 0;
+}
+
+@media (max-width:768px){
+    #masthead{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        margin-bottom: 0;
+    }
+
+    #masthead .col-full{
+        /*width: 90%;*/
+    }
+    .site-branding .site-title{
+        font-size: 1.5em;
+    }
+    .site-branding .custom-logo-link .custom-logo{
+        width: 60px;
+    }
+    .storefront-primary-navigation .col-full{
+        /*margin: 0;*/
+    }
+}
+
+@media (max-width:380px) {
+    #masthead .col-full .site-branding{
+        width: auto;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    #masthead {
+        flex-direction: row;
+    }
+}
+@media (max-width:350px) {
+    #masthead {
+        flex-direction: column;
+    }
+    .storefront-primary-navigation{
+        margin-top: 15px;
+    }
+    button.menu-toggle{
+        width: 100%;
+        margin: 0;
+    }
+    /*.storefront-primary-navigation .col-full{*/
+    /*    width: auto;*/
+    /*    display: flex;*/
+    /*    flex-direction: column;*/
+    /*    justify-content: center;*/
+    /*}*/
+    .menu{
+        text-align: center;
+    }
+}
